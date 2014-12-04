@@ -1,11 +1,13 @@
 {
-    "name": "laravel/laravel",
-    "description": "framework",
+    "name": "letstrythisout",
+    "description": "trying out composer to get laravel framework",
     "authors": [
         {
             "name": "Anthony Garza",
             "email": "anthony.garza@utexas.edu"
         }
     ],
-    "require": {}
+    "require": {
+        
+    }
 }
