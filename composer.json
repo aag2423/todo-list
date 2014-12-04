@@ -1,0 +1,11 @@
+{
+    "name": "laravel/laravel",
+    "description": "framework",
+    "authors": [
+        {
+            "name": "Anthony Garza",
+            "email": "anthony.garza@utexas.edu"
+        }
+    ],
+    "require": {}
+}
