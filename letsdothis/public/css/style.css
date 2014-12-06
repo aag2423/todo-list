@@ -15,3 +15,31 @@ body {
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+
+form{
+    margin: 0;
+}
+
+form input {
+    border-radius: 4px;
+    display: block;
+    margin: 0 0 10px 0;
+    -webkit-appearance: none;
+    border: 1px solid #bbb;
+    background: white;
+    padding: 4px;
+}
+
+form input:Last-child{
+    margin: 0;
+}
+
+form input[type=submit]:hover{
+    background: #eee;
+    cursor: pointer;
+}
+
+p.error{
+    color: #aa0000;
+    margin: 0 0 10px 0;
+}
