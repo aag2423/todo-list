@@ -17,7 +17,12 @@ class HomeController extends BaseController {
 
 	public function getIndex()
 	{
-		return View::make('home');
+        $items = Auth::user()->items;
+
+
+		return View::make('home', array(
+            'items' => $items
+        ));
 	}
 
 }
