@@ -20,7 +20,7 @@ form{
     margin: 0;
 }
 
-form input {
+form input:not([type=checkbox]) {
     border-radius: 4px;
     display: block;
     margin: 0 0 10px 0;
@@ -77,4 +77,16 @@ a:hover {
 
 form input[type=checkbox]{
     display: inline;
+}
+
+form input[type=checkbox]:hover{
+    cursor: pointer;
+}
+
+label:hover{
+    cursor: pointer;
+}
+
+.logout {
+    float: right;
 }

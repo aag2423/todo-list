@@ -2,6 +2,7 @@
     <head>
         <title>Our Todo App</title>
         <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}" />
+
     </head>
 
     <body>
